@@ -1,6 +1,6 @@
 return {
   "folke/which-key.nvim",
   opts = {
-    delay = 300, -- Menu pop-up delay
+    delay = 500, -- Menu pop-up delay
   },
 }
