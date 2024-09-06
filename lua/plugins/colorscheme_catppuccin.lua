@@ -7,7 +7,8 @@ return {
       highlight_overrides = {
         mocha = function(colors)
           return {
-            Comment = { fg = "#7687a0" },
+            Comment = { fg = colors.overlay2 },
+            LineNr = { fg = colors.overlay0 },
           }
         end,
       },
